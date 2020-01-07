@@ -1,5 +1,28 @@
 body{
+  width: 100%;
   margin: 0;
   padding: 0;
+  background-image:url(img/sfondo.jpg);
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  display: block;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 100px;
+  margin: auto;
+}
+.container-gioco{
+  display: flex;
+  width: 80%;
+  margin:auto;
+}
+.play1 {
   background-color: red;
+}
+.play2 {
+  background-color: green;
 }
