@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   background-image:url(img/sfondo.jpg);
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 h1 {
@@ -22,8 +22,8 @@ h1 {
   margin:auto;
 }
 .play1 {
-  background-color: red;
+  color: white;
 }
 .play2 {
-  background-color: green;
+  color: white;
 }

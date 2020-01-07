@@ -1,12 +1,16 @@
-var emailInserita = prompt("inserisci la tua email")
+var emailInserita = prompt("inserisci la tua email");
+var mailValida = false;
 for (var i = 0; i < emailInserita.length; i++) {
-  var controllo = emailInserita[i]
+  var controllo = emailInserita[i];
 
   if (controllo != "@") {
-    var emalInserita = "errore"
+    mailValida = false;
+  }
+  else {
+    mailValida = true;
   }
 }
-if (emailInserita == "errore") {
+if (mailValida = true) {
   alert("hai inserito un email in formattazione non  valida")
 }
 var listaEmail = ["123.gmail.com","canechecorre@gmail.com","random@hotmail.it","saninoc84@gmail.com"]
