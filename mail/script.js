@@ -7,7 +7,7 @@ for (var i = 0; i < emailInserita.length; i++) {
   }
 }
 if (emailInserita == "errore") {
-  alert("hai inserito un email non valida")
+  alert("hai inserito un email in formattazione non  valida")
 }
 var listaEmail = ["123.gmail.com","canechecorre@gmail.com","random@hotmail.it","saninoc84@gmail.com"]
 for (var i = 0; i < listaEmail.length; i++) {
