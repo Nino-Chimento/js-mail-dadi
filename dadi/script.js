@@ -24,6 +24,14 @@ function () {
   }
 }
 )
+document.getElementById('azzera').addEventListener("click",
+  function () {
+    document.getElementById('risultatoNumero1').innerHTML = "";
+    document.getElementById('risultatoNumero2').innerHTML = "";
+    document.getElementById('scoreFinale1').innerHTML = "";
+    document.getElementById('scoreFinale2').innerHTML = "";
+  }
+)
 // for(eccetera) {
 //   numero1 = Math.floor(Math.random() * 6 + 1);
 //   numero2 = Math.floor(Math.random() * 6 + 1);
