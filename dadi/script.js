@@ -5,7 +5,8 @@ function () {
   for (var i = 1; i <= 7; i++) {
     numero1 = Math.floor(Math.random() * 6 + 1);
     numero2 = Math.floor(Math.random() * 6 + 1);
-
+    document.getElementById('risultatoNumero1').innerHTML = numero1;
+    document.getElementById('risultatoNumero2').innerHTML = numero2;
     if (numero1 > numero2) {
       alert("numero 1 maggiore");
        PunteggioP1++
